@@ -1,4 +1,5 @@
 public abstract class BasicPlayer implements Player {
+    
     String myID="";
     int totalScore = 0;
     
@@ -13,6 +14,9 @@ public abstract class BasicPlayer implements Player {
     public String getID() {//???
         return(myID);   
 }
+ 
+    public int getScore() { return totalScore;}
+    public void resetScore() { totalScore=0;}
     
     public void setScore(int myMove, int oppMove, int myScore, int oppScore, String oppID) {
         totalScore+=myScore;

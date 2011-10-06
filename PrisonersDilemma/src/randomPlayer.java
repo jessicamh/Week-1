@@ -2,7 +2,9 @@
 import java.util.Random;
 
 public class randomPlayer extends BasicPlayer {
-        public int MakeMove() {
+         public randomPlayer (){
+        myID= "Random Player";
+} public int MakeMove() {
             Random r = new Random() ;
             //makes a random number
             if (r.nextFloat()>=0.5)

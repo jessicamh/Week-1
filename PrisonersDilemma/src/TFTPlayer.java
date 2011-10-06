@@ -1,6 +1,8 @@
 
 public class TFTPlayer extends BasicPlayer {
-    
+      public TFTPlayer (){
+        myID="TFT Player";
+}
     int oppLastMove=GameMove.COOPERATE;
 
     public int MakeMove() {

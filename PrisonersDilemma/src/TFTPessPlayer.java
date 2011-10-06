@@ -1,6 +1,8 @@
 
 public class TFTPessPlayer extends BasicPlayer {
-    
+        public TFTPessPlayer(){
+        myID="TFTPess Player";
+}
     int oppLastMove=GameMove.DEFECT;
 
     public int MakeMove() {
