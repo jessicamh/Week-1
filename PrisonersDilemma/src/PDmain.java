@@ -5,7 +5,7 @@ public class PDmain {
     
     ArrayList<Player> players = new ArrayList<Player>();
     public void setupTournament() {
-     //   players.add(new HumanPlayer());
+        players.add(new HumanPlayer());
         players.add(new CoopPlayer());
         players.add(new DefectPlayer()); 
         players.add(new randomPlayer()); 
