@@ -15,7 +15,7 @@ public class PDmain {
 
 public void roundRobin() throws IOException {
     FileWriter makeTxt = new FileWriter("RoundRobinRecord.csv");
-    PrintWriter outputFile = new PrintWriter(makeTxt);
+    PrintWriter myCSV = new PrintWriter(makeTxt);
 
     Judge MrJudge = new Judge();
      for (Player p1: players) {
@@ -25,10 +25,10 @@ public void roundRobin() throws IOException {
              p1.resetScore();
              System.out.println("Playing:"+p1.getID()+" vs "+p2.getID());
              MrJudge.playMatch(p1,p2,10);
-             outputFile.println(p1.getID() + "," + p2.getID() + "," + p1.getScore() + "," + p2.getScore());
+             myCSV.println(p1.getID() + "," + p2.getID() + "," + p1.getScore() + "," + p2.getScore());
          }
      }  
-     outputFile.close();
+     myCSV.close();
     }
 
 public void printResults() {
