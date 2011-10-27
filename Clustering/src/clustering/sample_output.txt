@@ -1,0 +1,104 @@
+run:
+Read 30 points.
+Max point:
+(50.0, 50.0)
+Min point:
+(0.0, 0.0)
+3 clusters will be created.
+Random centroid: 16.114005993651894,45.087136094417836
+Random centroid: 43.717101966205334,29.29822813698058
+Random centroid: 6.336578847841484,8.999195492223738
+System entropy: 1.7976931348623157E308
+
+Round #1
+
+# points in cluster:4
+Cluster entropy: 36.46768694756523
+
+# points in cluster:16
+Cluster entropy: 157.32430059480694
+
+# points in cluster:10
+Cluster entropy: 78.63111250267009
+
+System entropy: 272.42310004504225
+Change over previous: -8.988465674311579E307
+
+Round #2
+
+# points in cluster:4
+Cluster entropy: 36.46768694756523
+
+# points in cluster:17
+Cluster entropy: 163.72873550307827
+
+# points in cluster:9
+Cluster entropy: 67.57660438870067
+
+System entropy: 267.77302683934414
+Change over previous: -4.6500732056981064
+
+Round #3
+
+# points in cluster:5
+Cluster entropy: 49.202249481349185
+
+# points in cluster:17
+Cluster entropy: 163.72873550307827
+
+# points in cluster:8
+Cluster entropy: 51.88985028228079
+
+System entropy: 264.82083526670823
+Change over previous: -2.952191572635911
+
+Round #4
+
+# points in cluster:5
+Cluster entropy: 49.202249481349185
+
+# points in cluster:17
+Cluster entropy: 163.72873550307827
+
+# points in cluster:8
+Cluster entropy: 51.88985028228079
+
+System entropy: 264.82083526670823
+Change over previous: 0.0
+
+Counter: 4
+Point: 6.0,26.0
+Point: 38.0,18.0
+Point: 25.0,25.0
+Point: 19.0,19.0
+Point: 19.0,19.0
+Point: 26.0,6.0
+Point: 50.0,0.0
+Point: 50.0,0.0
+Point: 10.0,10.0
+Point: 14.0,9.0
+Point: 15.0,40.0
+Point: 0.0,50.0
+Point: 15.0,40.0
+Point: 27.0,32.0
+Point: 27.0,32.0
+Point: 28.0,18.0
+Point: 5.0,30.0
+Point: 32.0,27.0
+Point: 23.0,23.0
+Point: 17.0,12.0
+Point: 22.0,22.0
+Point: 9.0,14.0
+Point: 32.0,27.0
+Point: 26.0,26.0
+Point: 25.0,25.0
+Point: 25.0,20.0
+Point: 9.0,14.0
+Point: 32.0,27.0
+Point: 23.0,23.0
+Point: 30.0,30.0
+Final centroid: 8.2,37.2
+Final centroid: 30.294117647058822,22.058823529411764
+Final centroid: 15.375,12.875
+System energy: 529.6416705334165
+BUILD SUCCESSFUL (total time: 0 seconds)
