@@ -42,6 +42,7 @@ public class Cluster {
             totalY += point.y; }
         centroid.x = totalX / n;
         centroid.y = totalY / n;
+        System.out.print("Centroid: (" + centroid.x + "," + centroid.y + ")");
     }    
 
     public double getClusterDistanceFromCentroid() {
@@ -53,7 +54,7 @@ public class Cluster {
     }
     
     public void printCluster(){
-        System.out.println("\n# points in cluster:" + points.size());
-        System.out.println("Cluster entropy: " + clusterDistanceFromCentroid);
+        System.out.println("\n# points in cluster: " + points.size());
+        System.out.println("Cluster entropy: " + clusterDistanceFromCentroid + "\n");
     }
 }

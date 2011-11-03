@@ -70,7 +70,7 @@ public class Kmeans {
         for (Cluster c : clusters) {
            double clusterDist = c.getClusterDistanceFromCentroid();
             systemDistanceFromCentroids+= clusterDist;  }
-        System.out.println("\nSystem entropy: " + systemDistanceFromCentroids/2);
+        System.out.println("System energy: " + systemDistanceFromCentroids/2);
     }
 
     public void run() {
@@ -81,6 +81,7 @@ public class Kmeans {
                 & !done
                 ) {
            System.out.println("\nRound #" + (counter+1));
+           System.out.println("---------");
            clearClusters();
             assignPoints();
             updateClusters();
@@ -90,7 +91,8 @@ public class Kmeans {
                 done = true;}
            System.out.println("Change over previous: "+ ((systemDistanceFromCentroids - prevTotalDistance)/2));
             }
-        System.out.println("\nCounter: "+counter);
+        System.out.println("\nSummary\n--------");
+        System.out.println("Total iterations: "+counter);
      }
  
 
@@ -99,6 +101,6 @@ public class Kmeans {
             System.out.println("Point: "+point.x+","+point.y);}    
         for (Cluster cluster : clusters) {
             System.out.println("Final centroid: "+cluster.centroid.x+","+cluster.centroid.y);}
-        System.out.println("System energy: "+systemDistanceFromCentroids);
+        System.out.println("System energy: "+ systemDistanceFromCentroids/2);
     }
 }

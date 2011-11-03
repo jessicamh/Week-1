@@ -5,68 +5,82 @@ Max point:
 Min point:
 (0.0, 0.0)
 3 clusters will be created.
-Random centroid: 16.114005993651894,45.087136094417836
-Random centroid: 43.717101966205334,29.29822813698058
-Random centroid: 6.336578847841484,8.999195492223738
+Random centroid: 9.694723699431119,36.02673300325738
+Random centroid: 0.43396778889618903,5.5607888035231925
+Random centroid: 40.245291091315906,17.72999216362212
 System entropy: 1.7976931348623157E308
 
 Round #1
+---------
+Centroid: (15.5,31.0)
+# points in cluster: 10
+Cluster entropy: 123.01971729627249
 
-# points in cluster:4
-Cluster entropy: 36.46768694756523
+Centroid: (11.8,11.8)
+# points in cluster: 5
+Cluster entropy: 18.432125433633562
 
-# points in cluster:16
-Cluster entropy: 157.32430059480694
+Centroid: (31.0,19.666666666666668)
+# points in cluster: 15
+Cluster entropy: 159.92359403745786
 
-# points in cluster:10
-Cluster entropy: 78.63111250267009
-
-System entropy: 272.42310004504225
+System energy: 301.3754367673639
 Change over previous: -8.988465674311579E307
 
 Round #2
+---------
+Centroid: (13.571428571428571,35.714285714285715)
+# points in cluster: 7
+Cluster entropy: 79.22307632956182
 
-# points in cluster:4
-Cluster entropy: 36.46768694756523
+Centroid: (13.857142857142858,13.857142857142858)
+# points in cluster: 7
+Cluster entropy: 38.22930220906676
 
-# points in cluster:17
-Cluster entropy: 163.72873550307827
+Centroid: (30.4375,19.8125)
+# points in cluster: 16
+Cluster entropy: 166.25591987049168
 
-# points in cluster:9
-Cluster entropy: 67.57660438870067
-
-System entropy: 267.77302683934414
-Change over previous: -4.6500732056981064
+System energy: 283.7082984091203
+Change over previous: -17.66713835824362
 
 Round #3
-
-# points in cluster:5
+---------
+Centroid: (8.2,37.2)
+# points in cluster: 5
 Cluster entropy: 49.202249481349185
 
-# points in cluster:17
-Cluster entropy: 163.72873550307827
-
-# points in cluster:8
+Centroid: (15.375,12.875)
+# points in cluster: 8
 Cluster entropy: 51.88985028228079
 
-System entropy: 264.82083526670823
-Change over previous: -2.952191572635911
+Centroid: (30.294117647058822,22.058823529411764)
+# points in cluster: 17
+Cluster entropy: 163.72873550307827
+
+System energy: 264.82083526670823
+Change over previous: -18.88746314241206
 
 Round #4
-
-# points in cluster:5
+---------
+Centroid: (8.2,37.2)
+# points in cluster: 5
 Cluster entropy: 49.202249481349185
 
-# points in cluster:17
-Cluster entropy: 163.72873550307827
-
-# points in cluster:8
+Centroid: (15.375,12.875)
+# points in cluster: 8
 Cluster entropy: 51.88985028228079
 
-System entropy: 264.82083526670823
+Centroid: (30.294117647058822,22.058823529411764)
+# points in cluster: 17
+Cluster entropy: 163.72873550307827
+
+System energy: 264.82083526670823
 Change over previous: 0.0
 
-Counter: 4
+Summary
+--------
+Total iterationsS: 4
 Point: 6.0,26.0
 Point: 38.0,18.0
 Point: 25.0,25.0
@@ -98,7 +112,7 @@ Point: 32.0,27.0
 Point: 23.0,23.0
 Point: 30.0,30.0
 Final centroid: 8.2,37.2
-Final centroid: 30.294117647058822,22.058823529411764
 Final centroid: 15.375,12.875
-System energy: 529.6416705334165
+Final centroid: 30.294117647058822,22.058823529411764
+System energy: 264.82083526670823
 BUILD SUCCESSFUL (total time: 0 seconds)
