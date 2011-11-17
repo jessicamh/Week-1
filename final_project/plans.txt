@@ -1,0 +1,26 @@
+Here's what I want my agent to do:
+
+1) scale my taxes based on how many subordinates I have
+// protected void chooseTax(){...}
+(see KhanSerai taxee)
+
+2) store NatRes into reserves if alpha is high; use it all immediately on soldiers and attack someone with most of them if alpha is low (ideally, scale this)
+// myTerritory.getAlpha() 
+// myTerritory.produceSoldiers(#,#)
+// attackingSoldiers = #
+// defendingSoldiers = #
+// attackedTerritoryID = (#)
+
+3) redistribute wealth to subordinates if their wealth is less than 1/2 of mine (...if not possible, then just redistribute 1/4 of my wealth among all of them)
+
+4) if someone becomes my lord, attack with 1/2 of soldiers if I have at least 2/3 of their wealth
+
+5) *trade?* if alpha > 0.5, do not trade. if it's lower... *stuff.*
+
+6) do not attack ally or own type or my subordinates. otherwise, attack weakest neighbor.
+//if (___.getType() == _____)...
+// See Kull getWeakestNeighbor, getNonSubordinateNeighbors
+
+7) transfer soldiers to territory under control of allied lord if necessary (condition?)
+
+8) 
